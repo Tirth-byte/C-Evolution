@@ -1,3 +1,5 @@
+/* Q1.Write a C program to check whether a given number is divisible by 97 or not.
+ */
 #include <stdio.h>
 int main() {
     printf("Welcome !\n");
