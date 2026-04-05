@@ -17,14 +17,15 @@
 ## 📁 Folder structure
 
 Create a folder named **exactly** after your team at the repository root.
+
+~~~
 / (repository root)
-├── Team-Alpha/
-│   ├── README.md       ← live link, description, team info, tech stack
-│   └── src/            ← complete source code
-├── CodeMasters/
-└── Innovators/
-
-
+  ├── Team-Alpha/
+  │   ├── README.md       ← live link, description, team info, tech stack
+  │   └── src/            ← complete source code
+  ├── CodeMasters/
+  └── Innovators/
+~~~
 
 ### What to include in your folder
 
@@ -38,19 +39,19 @@ Create a folder named **exactly** after your team at the repository root.
 
 1. **Fork** this repository
 2. **Clone** your fork
-```bash
-   git clone https://github.com/YOUR_USERNAME/webx-finalists
-```
+~~~bash
+git clone https://github.com/YOUR_USERNAME/webx-finalists
+~~~
 3. **Create a branch** named after your team
-```bash
-   git checkout -b your-team-name
-```
+~~~bash
+git checkout -b your-team-name
+~~~
 4. **Add your team folder** following the structure above
 5. **Commit and push**
-```bash
-   git commit -m "Added project: Your Team Name"
-   git push origin your-team-name
-```
+~~~bash
+git commit -m "Added project: Your Team Name"
+git push origin your-team-name
+~~~
 6. **Open a pull request** to the `main` branch
 
 All valid submissions will be reviewed and merged.
